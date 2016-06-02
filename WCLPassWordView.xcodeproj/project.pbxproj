@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97AE15151CFF2A21001F126D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15141CFF2A21001F126D /* main.m */; };
+		97AE15181CFF2A21001F126D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15171CFF2A21001F126D /* AppDelegate.m */; };
+		97AE151B1CFF2A21001F126D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE151A1CFF2A21001F126D /* ViewController.m */; };
+		97AE151E1CFF2A21001F126D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AE151C1CFF2A21001F126D /* Main.storyboard */; };
+		97AE15201CFF2A21001F126D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AE151F1CFF2A21001F126D /* Assets.xcassets */; };
+		97AE152E1CFF2A21001F126D /* WCLPassWordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE152D1CFF2A21001F126D /* WCLPassWordViewTests.m */; };
+		97AE15391CFF2A21001F126D /* WCLPassWordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15381CFF2A21001F126D /* WCLPassWordViewUITests.m */; };
+		97AE15551CFF2AC9001F126D /* WCLPassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15481CFF2AC9001F126D /* WCLPassWordView.m */; };
+		97AE15561CFF2AC9001F126D /* YQInputPayKeyWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE154C1CFF2AC9001F126D /* YQInputPayKeyWordView.m */; };
+		97AE15571CFF2AC9001F126D /* YQInputPayKeyWordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AE154D1CFF2AC9001F126D /* YQInputPayKeyWordView.xib */; };
+		97AE15581CFF2AC9001F126D /* YQPayKeyWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE154F1CFF2AC9001F126D /* YQPayKeyWordVC.m */; };
+		97AE15591CFF2AC9001F126D /* YQPayKeyWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AE15501CFF2AC9001F126D /* YQPayKeyWordVC.xib */; };
+		97AE155A1CFF2AC9001F126D /* YQSelectPayStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15531CFF2AC9001F126D /* YQSelectPayStyleView.m */; };
+		97AE155B1CFF2AC9001F126D /* YQSelectPayStyleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AE15541CFF2AC9001F126D /* YQSelectPayStyleView.xib */; };
+		97AE155E1CFF2BAA001F126D /* UIColor+PPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE155D1CFF2BAA001F126D /* UIColor+PPCategory.m */; };
+		97AE15791CFF2C2E001F126D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15611CFF2C2E001F126D /* MASCompositeConstraint.m */; };
+		97AE157A1CFF2C2E001F126D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15641CFF2C2E001F126D /* MASConstraint.m */; };
+		97AE157B1CFF2C2E001F126D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15661CFF2C2E001F126D /* MASConstraintMaker.m */; };
+		97AE157C1CFF2C2E001F126D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15681CFF2C2E001F126D /* MASLayoutConstraint.m */; };
+		97AE157D1CFF2C2E001F126D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE156C1CFF2C2E001F126D /* MASViewAttribute.m */; };
+		97AE157E1CFF2C2E001F126D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE156E1CFF2C2E001F126D /* MASViewConstraint.m */; };
+		97AE157F1CFF2C2E001F126D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15701CFF2C2E001F126D /* NSArray+MASAdditions.m */; };
+		97AE15801CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15731CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		97AE15811CFF2C2E001F126D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15751CFF2C2E001F126D /* View+MASAdditions.m */; };
+		97AE15821CFF2C2E001F126D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE15781CFF2C2E001F126D /* ViewController+MASAdditions.m */; };
+		97AE15841CFF434B001F126D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AE15831CFF434B001F126D /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97AE152A1CFF2A21001F126D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97AE15081CFF2A21001F126D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97AE150F1CFF2A21001F126D;
+			remoteInfo = WCLPassWordView;
+		};
+		97AE15351CFF2A21001F126D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97AE15081CFF2A21001F126D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97AE150F1CFF2A21001F126D;
+			remoteInfo = WCLPassWordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97AE15101CFF2A21001F126D /* WCLPassWordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLPassWordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AE15141CFF2A21001F126D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97AE15161CFF2A21001F126D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97AE15171CFF2A21001F126D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97AE15191CFF2A21001F126D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97AE151A1CFF2A21001F126D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97AE151D1CFF2A21001F126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97AE151F1CFF2A21001F126D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97AE15241CFF2A21001F126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AE15291CFF2A21001F126D /* WCLPassWordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCLPassWordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AE152D1CFF2A21001F126D /* WCLPassWordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCLPassWordViewTests.m; sourceTree = "<group>"; };
+		97AE152F1CFF2A21001F126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AE15341CFF2A21001F126D /* WCLPassWordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCLPassWordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AE15381CFF2A21001F126D /* WCLPassWordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCLPassWordViewUITests.m; sourceTree = "<group>"; };
+		97AE153A1CFF2A21001F126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AE15471CFF2AC9001F126D /* WCLPassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLPassWordView.h; sourceTree = "<group>"; };
+		97AE15481CFF2AC9001F126D /* WCLPassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLPassWordView.m; sourceTree = "<group>"; };
+		97AE154B1CFF2AC9001F126D /* YQInputPayKeyWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQInputPayKeyWordView.h; sourceTree = "<group>"; };
+		97AE154C1CFF2AC9001F126D /* YQInputPayKeyWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQInputPayKeyWordView.m; sourceTree = "<group>"; };
+		97AE154D1CFF2AC9001F126D /* YQInputPayKeyWordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQInputPayKeyWordView.xib; sourceTree = "<group>"; };
+		97AE154E1CFF2AC9001F126D /* YQPayKeyWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPayKeyWordVC.h; sourceTree = "<group>"; };
+		97AE154F1CFF2AC9001F126D /* YQPayKeyWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPayKeyWordVC.m; sourceTree = "<group>"; };
+		97AE15501CFF2AC9001F126D /* YQPayKeyWordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQPayKeyWordVC.xib; sourceTree = "<group>"; };
+		97AE15521CFF2AC9001F126D /* YQSelectPayStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSelectPayStyleView.h; sourceTree = "<group>"; };
+		97AE15531CFF2AC9001F126D /* YQSelectPayStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSelectPayStyleView.m; sourceTree = "<group>"; };
+		97AE15541CFF2AC9001F126D /* YQSelectPayStyleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQSelectPayStyleView.xib; sourceTree = "<group>"; };
+		97AE155C1CFF2BAA001F126D /* UIColor+PPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPCategory.h"; sourceTree = "<group>"; };
+		97AE155D1CFF2BAA001F126D /* UIColor+PPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPCategory.m"; sourceTree = "<group>"; };
+		97AE15601CFF2C2E001F126D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		97AE15611CFF2C2E001F126D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		97AE15621CFF2C2E001F126D /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		97AE15631CFF2C2E001F126D /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		97AE15641CFF2C2E001F126D /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		97AE15651CFF2C2E001F126D /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		97AE15661CFF2C2E001F126D /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		97AE15671CFF2C2E001F126D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		97AE15681CFF2C2E001F126D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		97AE15691CFF2C2E001F126D /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		97AE156A1CFF2C2E001F126D /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		97AE156B1CFF2C2E001F126D /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		97AE156C1CFF2C2E001F126D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		97AE156D1CFF2C2E001F126D /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		97AE156E1CFF2C2E001F126D /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		97AE156F1CFF2C2E001F126D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		97AE15701CFF2C2E001F126D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		97AE15711CFF2C2E001F126D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		97AE15721CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		97AE15731CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		97AE15741CFF2C2E001F126D /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		97AE15751CFF2C2E001F126D /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		97AE15761CFF2C2E001F126D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		97AE15771CFF2C2E001F126D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		97AE15781CFF2C2E001F126D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		97AE15831CFF434B001F126D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97AE150D1CFF2A21001F126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15261CFF2A21001F126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15311CFF2A21001F126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97AE15071CFF2A21001F126D = {
+			isa = PBXGroup;
+			children = (
+				97AE15121CFF2A21001F126D /* WCLPassWordView */,
+				97AE152C1CFF2A21001F126D /* WCLPassWordViewTests */,
+				97AE15371CFF2A21001F126D /* WCLPassWordViewUITests */,
+				97AE15111CFF2A21001F126D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97AE15111CFF2A21001F126D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15101CFF2A21001F126D /* WCLPassWordView.app */,
+				97AE15291CFF2A21001F126D /* WCLPassWordViewTests.xctest */,
+				97AE15341CFF2A21001F126D /* WCLPassWordViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97AE15121CFF2A21001F126D /* WCLPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				97AE155F1CFF2C2E001F126D /* Masonry */,
+				97AE155C1CFF2BAA001F126D /* UIColor+PPCategory.h */,
+				97AE155D1CFF2BAA001F126D /* UIColor+PPCategory.m */,
+				97AE15461CFF2AC9001F126D /* WCLPassWordView */,
+				97AE15491CFF2AC9001F126D /* YQPayKeyWordVC */,
+				97AE15161CFF2A21001F126D /* AppDelegate.h */,
+				97AE15171CFF2A21001F126D /* AppDelegate.m */,
+				97AE15191CFF2A21001F126D /* ViewController.h */,
+				97AE151A1CFF2A21001F126D /* ViewController.m */,
+				97AE151C1CFF2A21001F126D /* Main.storyboard */,
+				97AE151F1CFF2A21001F126D /* Assets.xcassets */,
+				97AE15241CFF2A21001F126D /* Info.plist */,
+				97AE15131CFF2A21001F126D /* Supporting Files */,
+				97AE15831CFF434B001F126D /* Launch Screen.storyboard */,
+			);
+			path = WCLPassWordView;
+			sourceTree = "<group>";
+		};
+		97AE15131CFF2A21001F126D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15141CFF2A21001F126D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97AE152C1CFF2A21001F126D /* WCLPassWordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				97AE152D1CFF2A21001F126D /* WCLPassWordViewTests.m */,
+				97AE152F1CFF2A21001F126D /* Info.plist */,
+			);
+			path = WCLPassWordViewTests;
+			sourceTree = "<group>";
+		};
+		97AE15371CFF2A21001F126D /* WCLPassWordViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15381CFF2A21001F126D /* WCLPassWordViewUITests.m */,
+				97AE153A1CFF2A21001F126D /* Info.plist */,
+			);
+			path = WCLPassWordViewUITests;
+			sourceTree = "<group>";
+		};
+		97AE15461CFF2AC9001F126D /* WCLPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15471CFF2AC9001F126D /* WCLPassWordView.h */,
+				97AE15481CFF2AC9001F126D /* WCLPassWordView.m */,
+			);
+			path = WCLPassWordView;
+			sourceTree = "<group>";
+		};
+		97AE15491CFF2AC9001F126D /* YQPayKeyWordVC */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15511CFF2AC9001F126D /* YQSelectPayStyleView */,
+				97AE154A1CFF2AC9001F126D /* YQInputPayKeyWordView */,
+				97AE154E1CFF2AC9001F126D /* YQPayKeyWordVC.h */,
+				97AE154F1CFF2AC9001F126D /* YQPayKeyWordVC.m */,
+				97AE15501CFF2AC9001F126D /* YQPayKeyWordVC.xib */,
+			);
+			path = YQPayKeyWordVC;
+			sourceTree = "<group>";
+		};
+		97AE154A1CFF2AC9001F126D /* YQInputPayKeyWordView */ = {
+			isa = PBXGroup;
+			children = (
+				97AE154B1CFF2AC9001F126D /* YQInputPayKeyWordView.h */,
+				97AE154C1CFF2AC9001F126D /* YQInputPayKeyWordView.m */,
+				97AE154D1CFF2AC9001F126D /* YQInputPayKeyWordView.xib */,
+			);
+			path = YQInputPayKeyWordView;
+			sourceTree = "<group>";
+		};
+		97AE15511CFF2AC9001F126D /* YQSelectPayStyleView */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15521CFF2AC9001F126D /* YQSelectPayStyleView.h */,
+				97AE15531CFF2AC9001F126D /* YQSelectPayStyleView.m */,
+				97AE15541CFF2AC9001F126D /* YQSelectPayStyleView.xib */,
+			);
+			path = YQSelectPayStyleView;
+			sourceTree = "<group>";
+		};
+		97AE155F1CFF2C2E001F126D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				97AE15601CFF2C2E001F126D /* MASCompositeConstraint.h */,
+				97AE15611CFF2C2E001F126D /* MASCompositeConstraint.m */,
+				97AE15621CFF2C2E001F126D /* MASConstraint+Private.h */,
+				97AE15631CFF2C2E001F126D /* MASConstraint.h */,
+				97AE15641CFF2C2E001F126D /* MASConstraint.m */,
+				97AE15651CFF2C2E001F126D /* MASConstraintMaker.h */,
+				97AE15661CFF2C2E001F126D /* MASConstraintMaker.m */,
+				97AE15671CFF2C2E001F126D /* MASLayoutConstraint.h */,
+				97AE15681CFF2C2E001F126D /* MASLayoutConstraint.m */,
+				97AE15691CFF2C2E001F126D /* Masonry.h */,
+				97AE156A1CFF2C2E001F126D /* MASUtilities.h */,
+				97AE156B1CFF2C2E001F126D /* MASViewAttribute.h */,
+				97AE156C1CFF2C2E001F126D /* MASViewAttribute.m */,
+				97AE156D1CFF2C2E001F126D /* MASViewConstraint.h */,
+				97AE156E1CFF2C2E001F126D /* MASViewConstraint.m */,
+				97AE156F1CFF2C2E001F126D /* NSArray+MASAdditions.h */,
+				97AE15701CFF2C2E001F126D /* NSArray+MASAdditions.m */,
+				97AE15711CFF2C2E001F126D /* NSArray+MASShorthandAdditions.h */,
+				97AE15721CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.h */,
+				97AE15731CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				97AE15741CFF2C2E001F126D /* View+MASAdditions.h */,
+				97AE15751CFF2C2E001F126D /* View+MASAdditions.m */,
+				97AE15761CFF2C2E001F126D /* View+MASShorthandAdditions.h */,
+				97AE15771CFF2C2E001F126D /* ViewController+MASAdditions.h */,
+				97AE15781CFF2C2E001F126D /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97AE150F1CFF2A21001F126D /* WCLPassWordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AE153D1CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordView" */;
+			buildPhases = (
+				97AE150C1CFF2A21001F126D /* Sources */,
+				97AE150D1CFF2A21001F126D /* Frameworks */,
+				97AE150E1CFF2A21001F126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCLPassWordView;
+			productName = WCLPassWordView;
+			productReference = 97AE15101CFF2A21001F126D /* WCLPassWordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97AE15281CFF2A21001F126D /* WCLPassWordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AE15401CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordViewTests" */;
+			buildPhases = (
+				97AE15251CFF2A21001F126D /* Sources */,
+				97AE15261CFF2A21001F126D /* Frameworks */,
+				97AE15271CFF2A21001F126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97AE152B1CFF2A21001F126D /* PBXTargetDependency */,
+			);
+			name = WCLPassWordViewTests;
+			productName = WCLPassWordViewTests;
+			productReference = 97AE15291CFF2A21001F126D /* WCLPassWordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97AE15331CFF2A21001F126D /* WCLPassWordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AE15431CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordViewUITests" */;
+			buildPhases = (
+				97AE15301CFF2A21001F126D /* Sources */,
+				97AE15311CFF2A21001F126D /* Frameworks */,
+				97AE15321CFF2A21001F126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97AE15361CFF2A21001F126D /* PBXTargetDependency */,
+			);
+			name = WCLPassWordViewUITests;
+			productName = WCLPassWordViewUITests;
+			productReference = 97AE15341CFF2A21001F126D /* WCLPassWordViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97AE15081CFF2A21001F126D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王崇磊";
+				TargetAttributes = {
+					97AE150F1CFF2A21001F126D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					97AE15281CFF2A21001F126D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97AE150F1CFF2A21001F126D;
+					};
+					97AE15331CFF2A21001F126D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97AE150F1CFF2A21001F126D;
+					};
+				};
+			};
+			buildConfigurationList = 97AE150B1CFF2A21001F126D /* Build configuration list for PBXProject "WCLPassWordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97AE15071CFF2A21001F126D;
+			productRefGroup = 97AE15111CFF2A21001F126D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97AE150F1CFF2A21001F126D /* WCLPassWordView */,
+				97AE15281CFF2A21001F126D /* WCLPassWordViewTests */,
+				97AE15331CFF2A21001F126D /* WCLPassWordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97AE150E1CFF2A21001F126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AE15841CFF434B001F126D /* Launch Screen.storyboard in Resources */,
+				97AE155B1CFF2AC9001F126D /* YQSelectPayStyleView.xib in Resources */,
+				97AE15591CFF2AC9001F126D /* YQPayKeyWordVC.xib in Resources */,
+				97AE15201CFF2A21001F126D /* Assets.xcassets in Resources */,
+				97AE15571CFF2AC9001F126D /* YQInputPayKeyWordView.xib in Resources */,
+				97AE151E1CFF2A21001F126D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15271CFF2A21001F126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15321CFF2A21001F126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97AE150C1CFF2A21001F126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AE15551CFF2AC9001F126D /* WCLPassWordView.m in Sources */,
+				97AE155A1CFF2AC9001F126D /* YQSelectPayStyleView.m in Sources */,
+				97AE157F1CFF2C2E001F126D /* NSArray+MASAdditions.m in Sources */,
+				97AE15581CFF2AC9001F126D /* YQPayKeyWordVC.m in Sources */,
+				97AE151B1CFF2A21001F126D /* ViewController.m in Sources */,
+				97AE15811CFF2C2E001F126D /* View+MASAdditions.m in Sources */,
+				97AE157C1CFF2C2E001F126D /* MASLayoutConstraint.m in Sources */,
+				97AE157A1CFF2C2E001F126D /* MASConstraint.m in Sources */,
+				97AE15801CFF2C2E001F126D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				97AE15791CFF2C2E001F126D /* MASCompositeConstraint.m in Sources */,
+				97AE15181CFF2A21001F126D /* AppDelegate.m in Sources */,
+				97AE155E1CFF2BAA001F126D /* UIColor+PPCategory.m in Sources */,
+				97AE15151CFF2A21001F126D /* main.m in Sources */,
+				97AE157B1CFF2C2E001F126D /* MASConstraintMaker.m in Sources */,
+				97AE15821CFF2C2E001F126D /* ViewController+MASAdditions.m in Sources */,
+				97AE157E1CFF2C2E001F126D /* MASViewConstraint.m in Sources */,
+				97AE15561CFF2AC9001F126D /* YQInputPayKeyWordView.m in Sources */,
+				97AE157D1CFF2C2E001F126D /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15251CFF2A21001F126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AE152E1CFF2A21001F126D /* WCLPassWordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AE15301CFF2A21001F126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AE15391CFF2A21001F126D /* WCLPassWordViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97AE152B1CFF2A21001F126D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97AE150F1CFF2A21001F126D /* WCLPassWordView */;
+			targetProxy = 97AE152A1CFF2A21001F126D /* PBXContainerItemProxy */;
+		};
+		97AE15361CFF2A21001F126D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97AE150F1CFF2A21001F126D /* WCLPassWordView */;
+			targetProxy = 97AE15351CFF2A21001F126D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97AE151C1CFF2A21001F126D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AE151D1CFF2A21001F126D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97AE153B1CFF2A21001F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97AE153C1CFF2A21001F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97AE153E1CFF2A21001F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCLPassWordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97AE153F1CFF2A21001F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCLPassWordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97AE15411CFF2A21001F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCLPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCLPassWordView.app/WCLPassWordView";
+			};
+			name = Debug;
+		};
+		97AE15421CFF2A21001F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCLPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCLPassWordView.app/WCLPassWordView";
+			};
+			name = Release;
+		};
+		97AE15441CFF2A21001F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCLPassWordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCLPassWordView;
+			};
+			name = Debug;
+		};
+		97AE15451CFF2A21001F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCLPassWordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLPassWordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCLPassWordView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97AE150B1CFF2A21001F126D /* Build configuration list for PBXProject "WCLPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AE153B1CFF2A21001F126D /* Debug */,
+				97AE153C1CFF2A21001F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AE153D1CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AE153E1CFF2A21001F126D /* Debug */,
+				97AE153F1CFF2A21001F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AE15401CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AE15411CFF2A21001F126D /* Debug */,
+				97AE15421CFF2A21001F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AE15431CFF2A21001F126D /* Build configuration list for PBXNativeTarget "WCLPassWordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AE15441CFF2A21001F126D /* Debug */,
+				97AE15451CFF2A21001F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97AE15081CFF2A21001F126D /* Project object */;
+}
